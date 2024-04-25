@@ -1,3 +1,18 @@
-# CIFAR-100
+# What is CIFAR-100?
+The CIFAR-100 dataset is a collection of 60,000 32x32 colored images divided into 100 fine-grained classes. It's a popular benchmark dataset for image classification tasks, particularly in computer vision research. Here's a breakdown of its key characteristics:
 
-The CIFAR-100 dataset is just like the CIFAR-10, except it has 100 classes containing 600 images each. There are 500 training images and 100 testing images per class. The 100 classes in the CIFAR-100 are grouped into 20 superclasses. Each image comes with a "fine" label (the class to which it belongs) and a "coarse" label (the superclass to which it belongs).
+- **Number of Classes**: 100 (fine-grained categories)
+- **Number of Images**: 60,000 (50,000 training images, 10,000 testing images)
+- **Image Size**: 32x32 pixels (RGB color channels)
+- **Class Hierarchy**: The 100 classes are further organized into 20 superclasses (e.g., "mammals", "vehicles", "musical instruments"). Each image has a "fine" label (specific class) and a "coarse" label (superclass).
+
+The fine-grained nature of the classes (e.g., distinguishing between different types of airplanes or dogs) makes CIFAR-100 a more challenging dataset compared to CIFAR-10, which has only 10 object categories.
+
+
+# Image Classification: SVM vs. CNN
+This project explores two machine learning models for image classification on the CIFAR-100 dataset:
+
+- Support Vector Machine (SVM):
+  - A traditional machine learning model known for good performance on smaller datasets and interpretability.
+- Convolutional Neural Network (CNN):
+  - A deep learning model specifically designed for image recognition tasks, often achieving higher accuracy on complex datasets like CIFAR-100.
