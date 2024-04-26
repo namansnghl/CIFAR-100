@@ -1,8 +1,6 @@
 # Image Classification with CIFAR100
 
-# Navigation
-
-# About Dataset
+## About Dataset
 The CIFAR-100 dataset is a collection of 60,000 32x32 colored images divided into 100 fine-grained classes. It's a popular benchmark dataset for image classification tasks, particularly in computer vision research. Here's a breakdown of its key characteristics:
 
 - **Number of Classes**: 100 (fine-grained categories)
@@ -13,7 +11,7 @@ The CIFAR-100 dataset is a collection of 60,000 32x32 colored images divided int
 The fine-grained nature of the classes (e.g., distinguishing between different types of airplanes or dogs) makes CIFAR-100 a more challenging dataset compared to CIFAR-10, which has only 10 object categories.
 
 
-# Methods
+## Methods
 
 ### Support Vector Machine
 
@@ -21,6 +19,6 @@ The fine-grained nature of the classes (e.g., distinguishing between different t
 
 ### Convolution Neural Network
 
-# Analysis
+## Analysis
 
-# Results
+## Results
